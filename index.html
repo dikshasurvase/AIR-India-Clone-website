@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIR INDIA | Book Flights</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. TOP BAR: small links above the main menu -->
+  <div class="topbar">
+    <div class="container">
+      <span>Helpline: 1800 000 000</span>
+      <div>
+        <a href="#">Language: English</a>
+        <a href="#">Login / Register</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. HEADER: logo + navigation menu -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">AIR<span>INDIA</span></a>
+      <nav>
+        <a href="#">Book</a>
+        <a href="#">Manage Booking</a>
+        <a href="#">Check-in</a>
+        <a href="#">Flight Status</a>
+        <a href="#">Offers</a>
+        <a href="#">Help</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 3. HERO: big banner with the booking form on top -->
+  <section class="hero">
+    <div class="container">
+      <h1>Fly with comfort, land with a smile</h1>
+      <p>Search and book flights to over 100 destinations.</p>
+
+      <form class="booking">
+        <div class="trip-type">
+          <label><input type="radio" name="trip" checked> Round trip</label>
+          <label><input type="radio" name="trip"> One way</label>
+          <label><input type="radio" name="trip"> Multi city</label>
+        </div>
+
+        <div class="fields">
+          <div class="field">
+            <label for="from">From</label>
+            <input id="from" type="text" placeholder="Delhi (DEL)">
+          </div>
+          <div class="field">
+            <label for="to">To</label>
+            <input id="to" type="text" placeholder="Mumbai (BOM)">
+          </div>
+          <div class="field">
+            <label for="depart">Departure</label>
+            <input id="depart" type="date">
+          </div>
+          <div class="field">
+            <label for="return">Return</label>
+            <input id="return" type="date">
+          </div>
+          <div class="field">
+            <label for="pax">Passengers</label>
+            <select id="pax">
+              <option>1 Adult</option>
+              <option>2 Adults</option>
+              <option>3 Adults</option>
+              <option>4 Adults</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="button" class="btn">Search flights</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- 4. QUICK SERVICES: four small boxes -->
+  <section class="services container">
+    <a href="#" class="service"><strong>Web Check-in</strong><span>Skip the airport queue</span></a>
+    <a href="#" class="service"><strong>Flight Status</strong><span>Track arrivals and departures</span></a>
+    <a href="#" class="service"><strong>Manage Booking</strong><span>Change seats or meals</span></a>
+    <a href="#" class="service"><strong>Baggage Info</strong><span>Know your allowance</span></a>
+  </section>
+
+  <!-- 5. OFFERS: three cards -->
+  <section class="section container">
+    <h2>Latest offers</h2>
+    <div class="grid">
+      <article class="card offer one">
+        <h3>Festive Sale</h3>
+        <p>Up to 20% off on domestic flights.</p>
+        <a href="#">Book now</a>
+      </article>
+      <article class="card offer two">
+        <h3>Student Fare</h3>
+        <p>Extra baggage and discounted tickets.</p>
+        <a href="#">Know more</a>
+      </article>
+      <article class="card offer three">
+        <h3>Early Bird</h3>
+        <p>Book 30 days ahead and save more.</p>
+        <a href="#">Book now</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- 6. POPULAR DESTINATIONS -->
+<section class="section container">
+  <h2>Popular destinations</h2>
+  <div class="grid four">
+    <article class="card dest">
+      <img src="images/goa.jpg" alt="Beach in Goa">
+      <div class="dest-text">
+        <h3>Goa</h3>
+        <p>From ₹3,499</p>
+      </div>
+    </article>
+
+    <article class="card dest">
+      <img src="images/jaipur.png" alt="Palace in Jaipur">
+      <div class="dest-text">
+        <h3>Jaipur</h3>
+        <p>From ₹2,899</p>
+      </div>
+    </article>
+
+    <article class="card dest">
+      <img src="images/kochi.jpg" alt="Backwaters near Kochi">
+      <div class="dest-text">
+        <h3>Kochi</h3>
+        <p>From ₹4,199</p>
+      </div>
+    </article>
+
+    <article class="card dest">
+      <img src="images/dubai.jpg" alt="Dubai skyline">
+      <div class="dest-text">
+        <h3>Dubai</h3>
+        <p>From ₹12,999</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+  <!-- 7. FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>About us</h4>
+        <a href="#">Our story</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a href="#">Contact us</a>
+        <a href="#">Refund policy</a>
+        <a href="#">FAQs</a>
+      </div>
+      <div>
+        <h4>Travel info</h4>
+        <a href="#">Baggage</a>
+        <a href="#">Special assistance</a>
+        <a href="#">Travel advisories</a>
+      </div>
+      <div>
+        <h4>Follow us</h4>
+        <a href="#">Instagram</a>
+        <a href="#">X (Twitter)</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+    <p class="copy">© 2026 SkyIndia. Practice project for learning HTML and CSS.</p>
+  </footer>
+
+</body>
+</html>
